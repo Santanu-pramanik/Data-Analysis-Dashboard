@@ -4,136 +4,89 @@ This dashboard is designed to analyze and visualize road accident data based on 
 ## Dataset used
 -<a href="https://www.kaggle.com/datasets/xavierberge/road-accident-dataset"> Kaggle Dataset</a>
 -<a href="[https://www.kaggle.com/datasets/xavierberge/road-accident-dataset](https://github.com/Santanu-pramanik/Data-Analysis-Dashboard/blob/main/Clean_Data.xlsx)"> Clean Dataset</a>
-## Question(KPIs)
-###PART 1: Primary KPIs
 
-What it shows: Quick summary of key metrics.
-KPIs Created:
 
-Total Casualties
+## 📊 Dashboard Sections
 
-Fatal Casualties (Deaths)
+### 🔹 PART 1: Primary KPIs
+- Total Casualties  
+- Fatal Casualties (Deaths)  
+- Serious Casualties (Critical Injuries)  
+- Slight Casualties (Minor Injuries)  
+- Casualties by Cars  
 
-Serious Casualties (Critical Injuries)
+**Visuals Used:**  
+✔ Number Cards (big, bold values)  
+✔ Donut Charts (% labels, no legends)  
+✔ Icons/Shapes to represent each KPI  
 
-Slight Casualties (Minor Injuries)
+---
 
-Casualties by Cars
+### 🔹 PART 2: Secondary KPIs – Casualties by Vehicle Type
+- Cars  
+- Motorcycles  
+- Buses  
+- Trucks  
+- Tractors  
+- Others  
 
-Visuals Used:
+**Visuals Used:**  
+✔ Icon + Label combinations  
+✔ Small Number Cards for each vehicle type  
+✔ Excel Icons/Shapes for visuals  
 
-Number Cards (big, bold values)
+---
 
-Donut Charts (with % labels, no legends)
+### 🔹 PART 3: CY vs PY Casualty Trend (Monthly)
+- Line Chart with **Months (Jan–Dec)** on X-axis  
+- **Casualty counts** on Y-axis  
+- Series for **2021 vs 2022**  
+- Data Labels + Legend  
 
-Icons/Shapes to represent each KPI
+---
 
-PART 2: Secondary KPIs – Casualties by Vehicle Type
+### 🔹 PART 4: Casualties by Road Type
+- Road categories: Single Carriageway, Dual Carriageway, Roundabout, One-way, Slip Road, etc.  
+- Horizontal Bar Chart (sorted descending)  
 
-What it shows: Breakdown of casualties by different vehicle groups.
+---
 
-Vehicle Groups:
+### 🔹 PART 5: Casualties by Road Surface Condition
+- Conditions: Dry, Wet, Snow/Ice  
+- Tree Map OR 100% Stacked Bar  
 
-Cars
+---
 
-Motorcycles
+### 🔹 PART 6: Urban vs Rural Casualties
+- Donut Chart with **Urban vs Rural**  
+- Contrasting colors (e.g., Brown vs Light Beige)  
 
-Buses
+---
 
-Trucks
+### 🔹 PART 7: Light Condition Analysis (Day vs Night)
+- Donut Chart with **Daylight vs Darkness**  
+- Show counts + percentages  
 
-Tractors
+---
 
-Others
+### 🔹 PART 8: Filter Panel
+- Filters available:  
+  - Urban/Rural  
+  - Year (2021, 2022, 2023)  
+  - Day of Week (Mon–Sun)  
 
-Visuals Used:
+**Visuals Used:**  
+✔ Excel Slicers (custom styled)  
 
-Icon + Label combinations
+---
 
-Number cards with each vehicle type
+### 🔹 PART 9: Linked Image Navigation
+- Insert icons/images  
+- Right-click → Link → Place in This Document → Choose Sheet (e.g., Dataset)  
+- Add hover effect formatting  
 
-Shapes or Excel Icons for visual clarity
+---
 
-PART 3: CY vs PY Casualty Trend (Monthly)
 
-What it shows: Month-wise trend comparison between Current Year (CY) and Previous Year (PY).
 
-Visuals Used:
 
-Line Chart
-
-X-axis → Months (Jan–Dec)
-
-Y-axis → Casualty counts
-
-Two series (e.g., 2021 vs 2022) with data labels + legend
-
-PART 4: Casualties by Road Type
-
-What it shows: Accident counts across road types.
-
-Visuals Used:
-
-Horizontal Bar Chart
-
-Categories: Single carriageway, Dual carriageway, Roundabout, One-way, Slip road, etc.
-
-Sorted in descending order
-
-PART 5: Casualties by Road Surface Condition
-
-What it shows: How road conditions impact accidents.
-
-Categories: Dry, Wet, Snow/Ice
-
-Visuals Used:
-
-Tree Map OR 100% Stacked Bar
-
-PART 6: Urban vs Rural Casualties
-
-What it shows: Comparison of casualties in urban vs rural areas.
-
-Visuals Used:
-
-Donut Chart (Urban vs Rural)
-
-Contrasting colors (e.g., Brown vs Light Beige)
-
-PART 7: Light Condition Analysis (Day vs Night)
-
-What it shows: When most accidents occur.
-
-Categories: Daylight, Darkness
-
-Visuals Used:
-
-Donut Chart (Counts + Percentages)
-
-PART 8: Filter Panel
-
-What it shows: Interactive filters for dynamic analysis.
-
-Filters Available:
-
-Urban/Rural
-
-Year (2021, 2022, 2023)
-
-Day of Week (Mon–Sun)
-
-Visuals Used:
-
-Excel Slicers (custom theme styling)
-
-PART 9: Linked Image Navigation
-
-What it shows: Quick navigation across sheets.
-
-Steps:
-
-Insert icon/image
-
-Right-click → Link → Place in this Document → Choose Sheet (e.g., Dataset)
-
-Add hover effects via formatting
