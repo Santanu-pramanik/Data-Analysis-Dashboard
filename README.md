@@ -16,9 +16,9 @@ This dashboard is designed to analyze and visualize road accident data based on 
 - Casualties by Cars  
 
 **Visuals Used:**  
-✔ Number Cards (big, bold values)  
-✔ Donut Charts (% labels, no legends)  
-✔ Icons/Shapes to represent each KPI  
+ - Number Cards   
+ - Donut Charts  
+ -  Icons represent each KPI  
 
 ---
 
@@ -31,23 +31,22 @@ This dashboard is designed to analyze and visualize road accident data based on 
 - Others  
 
 **Visuals Used:**  
-✔ Icon + Label combinations  
-✔ Small Number Cards for each vehicle type  
-✔ Excel Icons/Shapes for visuals  
+_ Icon + Label combinations  
+- Small Number Cards for each vehicle type  
+- Excel Icons for visuals  
 
 ---
 
 ### 🔹 PART 3: CY vs PY Casualty Trend (Monthly)
 - Line Chart with **Months (Jan–Dec)** on X-axis  
 - **Casualty counts** on Y-axis  
-- Series for **2021 vs 2022**  
-- Data Labels + Legend  
+- Series for **2021 vs 2022**   
 
 ---
 
 ### 🔹 PART 4: Casualties by Road Type
 - Road categories: Single Carriageway, Dual Carriageway, Roundabout, One-way, Slip Road, etc.  
-- Horizontal Bar Chart (sorted descending)  
+- Horizontal Bar Chart 
 
 ---
 
@@ -59,13 +58,12 @@ This dashboard is designed to analyze and visualize road accident data based on 
 
 ### 🔹 PART 6: Urban vs Rural Casualties
 - Donut Chart with **Urban vs Rural**  
-- Contrasting colors (e.g., Brown vs Light Beige)  
+- Contrasting colors 
 
 ---
 
 ### 🔹 PART 7: Light Condition Analysis (Day vs Night)
 - Donut Chart with **Daylight vs Darkness**  
-- Show counts + percentages  
 
 ---
 
@@ -76,14 +74,13 @@ This dashboard is designed to analyze and visualize road accident data based on 
   - Day of Week (Mon–Sun)  
 
 **Visuals Used:**  
-✔ Excel Slicers (custom styled)  
+- Excel Slicers (custom styled)  
 
 ---
 
 ### 🔹 PART 9: Linked Image Navigation
 - Insert icons/images  
-- Right-click → Link → Place in This Document → Choose Sheet (e.g., Dataset)  
-- Add hover effect formatting  
+- Right-click → Link → Place in This Document → Choose Sheet ) 
 
 ---
 
